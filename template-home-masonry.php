@@ -153,7 +153,7 @@ if(isset($_GET["um_paged"]) && $_GET["um_paged"]){
                     ?>
                     </div>
                     <br style="clear:both"/>
-					<div class="load-posts"><a href="<?php the_permalink(); ?>" class="load-more"><i class="icon-refresh"></i><?php _e("Load more","um_lang"); ?></a></div>
+					<div class="load-posts" style="display:none;"><a href="<?php the_permalink(); ?>" class="load-more"><i class="icon-refresh"></i><?php _e("Load more","um_lang"); ?></a></div>
 				</div>
 			</div>	
 		</div>
